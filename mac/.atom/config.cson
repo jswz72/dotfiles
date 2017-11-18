@@ -1,0 +1,15 @@
+"*":
+  "activate-power-mode":
+    plugins:
+      playAudio: true
+      screenShake: true
+  core:
+    disabledPackages: [
+      "activate-power-mode"
+    ]
+    telemetryConsent: "no"
+  editor: {}
+  "exception-reporting":
+    userId: "0dcb94be-09bf-4c1d-94a7-81070037d3a5"
+  welcome:
+    showOnStartup: false

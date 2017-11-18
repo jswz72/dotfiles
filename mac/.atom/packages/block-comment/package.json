@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+        "spec": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/apm-install-dir-117527-79709-rbycp5.6cclsaif6r"
+    ]
+  ],
+  "_from": "../d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+  "_id": "block-comment@0.4.3",
+  "_inCache": true,
+  "_location": "/block-comment",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+    "spec": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+  "_shasum": "348c6e63bdafd0995a90e5740d0f703277c8d7a8",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/d-117527-79709-80g8mo.aflk81tt9/package.tgz",
+  "_where": "/private/var/folders/w1/tx27675s0xzctf7__4b_dks1h7bm8w/T/apm-install-dir-117527-79709-rbycp5.6cclsaif6r",
+  "activationCommands": {
+    "atom-text-editor": [
+      "block-comment:toggle"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/RayKwon/atom-block-comment/issues"
+  },
+  "dependencies": {},
+  "description": "Block comment",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/RayKwon/atom-block-comment#readme",
+  "license": "MIT",
+  "main": "./lib/block-comment",
+  "name": "block-comment",
+  "optionalDependencies": {},
+  "readme": "# block-comment package\n\nBlock comment/uncomment\n\nCtrl + Alt + Cmd + /\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayKwon/atom-block-comment.git"
+  },
+  "version": "0.4.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/block-comment.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
