@@ -1,0 +1,15 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.3840.1080" x="1048" y="296" />
+    <location key="WELCOME_SCREEN.0.0.3840.1080" x="1265" y="544" />
+    <location key="SettingsEditor.0.0.1920.1080" x="31" y="244" />
+    <location key="find.popup.0.0.1920.1080" x="615" y="161" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="473" />
+    <location key="WELCOME_SCREEN.0.202.1920.1080" x="959" y="675" />
+    <location key="SettingsEditor.0.202.1920.1080" x="429" y="412" />
+    <size key="FileChooserDialogImpl.0.0.3840.1080" width="424" height="505" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1108" height="703" />
+    <size key="find.popup.0.0.1920.1080" width="933" height="732" />
+    <size key="SettingsEditor.0.202.1920.1080" width="1052" height="692" />
+  </component>
+</application>

@@ -1,0 +1,939 @@
+2017-09-10 11:44:31,406 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-10 11:44:31,431 [     25]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:41) 
+2017-09-10 11:44:31,431 [     25]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-10 11:44:31,431 [     25]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-10 11:44:31,431 [     25]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-10 11:44:31,435 [     29]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-10 11:44:31,435 [     29]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-10 11:44:31,435 [     29]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-10 11:44:31,469 [     63]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 34 ms 
+2017-09-10 11:44:55,386 [  23980]   INFO - .license.impl.JetprofileSource - Unexpected JBA connection error: java.lang.Exception: Authorization failed: Wrong username or password 
+2017-09-10 11:45:01,488 [  30082]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-10 11:45:01,489 [  30083]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-10 11:45:03,038 [  31632]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-10 11:45:03,441 [  32035]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-10 11:45:03,444 [  32038]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-10 11:45:04,040 [  32634]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 1946 ms 
+2017-09-10 11:45:04,041 [  32635]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-10 11:45:05,142 [  33736]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/jswizz/.WebStorm2017.2/system/caches/names.dat' does not exist 
+2017-09-10 11:45:05,147 [  33741]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=721 
+2017-09-10 11:45:05,225 [  33819]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 11:45:05,253 [  33847]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-10 11:45:05,625 [  34219]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-10 11:45:05,625 [  34219]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-10 11:45:06,886 [  35480]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2017-09-10 11:45:06,886 [  35480]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2017-09-10 11:45:07,647 [  36241]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-10 11:45:08,072 [  36666]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-10 11:45:08,262 [  36856]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-10 11:45:08,670 [  37264]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:155 
+2017-09-10 11:45:08,689 [  37283]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:19 
+2017-09-10 11:45:08,879 [  37473]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:156 
+2017-09-10 11:45:08,880 [  37474]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2017-09-10 11:45:08,980 [  37574]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-10 11:45:09,397 [  37991]   INFO - .intellij.idea.IdeaApplication - App initialization took 90999 ms 
+2017-09-10 11:45:09,934 [  38528]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:HTML,Vue.js,XML,Literate CoffeeScript,Jade,Sass,TypeScript,CSS,Flow,SCSS,TypeScript JSX,CoffeeScript,ECMAScript 6,Handlebars/Mustache,ActionScript,Spacebars,JSP,EJS,Stylus,Less,JavaScript,JSX Harmony 
+2017-09-10 11:45:11,228 [  39822]   INFO - pl$FileIndexDataInitialization - Initialization done:2542 
+2017-09-10 11:45:12,931 [  41525]   INFO - exImpl$StubIndexInitialization - Initialization done:1703 
+2017-09-10 11:45:14,830 [  43424]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@3d4fe1c9 
+2017-09-10 11:45:16,144 [  44738]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@291678c3 
+2017-09-10 11:45:17,107 [  45701]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@4968c0e0 
+2017-09-10 11:45:54,484 [  83078]   INFO - ellij.project.impl.ProjectImpl - 14 project components initialized in 249 ms 
+2017-09-10 11:45:55,571 [  84165]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 848 ms 
+2017-09-10 11:45:55,571 [  84165]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2017-09-10 11:45:57,367 [  85961]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-10 11:45:58,719 [  87313]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 136ms under project opening modal progress 
+2017-09-10 11:45:58,799 [  87393]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.grunt.GruntfileManager 
+2017-09-10 11:45:58,802 [  87396]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.gulp.GulpfileManager 
+2017-09-10 11:45:58,810 [  87404]   INFO - Tools.base.JsbtStartupActivity - Detecting buildfiles for com.intellij.lang.javascript.buildTools.npm.PackageJsonFileManager 
+2017-09-10 11:45:58,863 [  87457]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 403ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 11:46:00,451 [  89045]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-10 11:46:00,453 [  89047]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 41ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 11:46:00,535 [  89129]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-10 11:46:01,289 [  89883]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 833ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2017-09-10 11:46:01,290 [  89884]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 261 files to update 
+2017-09-10 11:46:01,680 [  90274]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/jswizz/Projects/voting-app/.idea/voting-app.iml 
+2017-09-10 11:46:01,680 [  90274]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/jswizz/Projects/voting-app 
+2017-09-10 11:46:01,680 [  90274]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///home/jswizz/Projects/voting-app/app, file:///home/jswizz/Projects/voting-app/.git, file:///home/jswizz/Projects/voting-app/.idea, file:///home/jswizz/Projects/voting-app/public, file:///home/jswizz/Projects/voting-app/README.md, file:///home/jswizz/Projects/voting-app/server.js, file:///home/jswizz/Projects/voting-app/.gitignore, file:///home/jswizz/Projects/voting-app/package.json, file:///home/jswizz/Projects/voting-app/package-lock.json, file:///home/jswizz/Projects/voting-app/webpack.config.js] 
+2017-09-10 11:46:01,680 [  90274]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.grunt.GruntService 
+2017-09-10 11:46:01,702 [  90296]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/jswizz/Projects/voting-app/.idea/voting-app.iml 
+2017-09-10 11:46:01,702 [  90296]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/jswizz/Projects/voting-app 
+2017-09-10 11:46:01,703 [  90297]   INFO - cript.buildTools.base.JsbtUtil - Detecting by children: [file:///home/jswizz/Projects/voting-app/app, file:///home/jswizz/Projects/voting-app/.git, file:///home/jswizz/Projects/voting-app/.idea, file:///home/jswizz/Projects/voting-app/public, file:///home/jswizz/Projects/voting-app/README.md, file:///home/jswizz/Projects/voting-app/server.js, file:///home/jswizz/Projects/voting-app/.gitignore, file:///home/jswizz/Projects/voting-app/package.json, file:///home/jswizz/Projects/voting-app/package-lock.json, file:///home/jswizz/Projects/voting-app/webpack.config.js] 
+2017-09-10 11:46:01,703 [  90297]   INFO - Tools.base.JsbtStartupActivity - Found [] for com.intellij.lang.javascript.buildTools.gulp.GulpService 
+2017-09-10 11:46:01,711 [  90305]   INFO - cript.buildTools.base.JsbtUtil - Iterating over content roots for module /home/jswizz/Projects/voting-app/.idea/voting-app.iml 
+2017-09-10 11:46:01,711 [  90305]   INFO - cript.buildTools.base.JsbtUtil - Detecting in content root /home/jswizz/Projects/voting-app 
+2017-09-10 11:46:01,711 [  90305]   INFO - ols.npm.PackageJsonFileManager - Found package.json in /home/jswizz/Projects/voting-app: file:///home/jswizz/Projects/voting-app/package.json 
+2017-09-10 11:46:01,732 [  90326]   INFO - Tools.base.JsbtStartupActivity - Found [file:///home/jswizz/Projects/voting-app/package.json] for com.intellij.lang.javascript.buildTools.npm.NpmScriptsService 
+2017-09-10 11:46:01,999 [  90593]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 11:46:02,056 [  90650]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-10 11:46:02,406 [  91000]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 11:46:02,406 [  91000]   INFO - s.roots.VcsRootProblemNotifier - Added Git root /home/jswizz/Projects/voting-app as the only auto-detected root. 
+2017-09-10 11:46:03,394 [  91988]   WARN - ellij.openapi.ui.DialogWrapper - Stale listener: com.intellij.ide.ui.laf.LafManagerImpl$OurPopupFactory$1@2a8dd1d5 
+2017-09-10 11:46:03,704 [  92298]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 9488 ms 
+2017-09-10 11:46:39,091 [ 127685]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 37801ms; general responsiveness: 1/38 sluggish; EDT responsiveness: 6/38 sluggish, 4/38 very slow 
+2017-09-10 11:46:39,095 [ 127689]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 2ms 
+2017-09-10 11:46:39,244 [ 127838]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-09-10 11:46:39,244 [ 127838]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 118ms on UI thread 
+2017-09-10 11:46:39,435 [ 128029]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 190ms on UI thread 
+2017-09-10 11:46:40,821 [ 129415]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-10 11:46:40,821 [ 129415]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-10 11:46:40,821 [ 129415]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-10 11:46:40,958 [ 129552]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 1 ms 
+2017-09-10 11:46:44,825 [ 133419]   INFO - tellij.vcs.log.data.VcsLogData - Username not configured for root file:///home/jswizz/Projects/voting-app 
+2017-09-10 11:52:10,329 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-10 11:52:10,400 [     71]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-09-10 11:52:10,400 [     71]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-09-10 11:52:10,467 [    138]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:10) 
+2017-09-10 11:52:10,467 [    138]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-10 11:52:10,467 [    138]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-10 11:52:10,467 [    138]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-10 11:52:10,509 [    180]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-10 11:52:10,509 [    180]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-10 11:52:10,509 [    180]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-10 11:52:10,588 [    259]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 79 ms 
+2017-09-10 11:52:19,231 [   8902]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-10 11:52:19,297 [   8968]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-10 11:52:26,303 [  15974]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-10 11:52:30,246 [  19917]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-10 11:52:30,247 [  19918]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-10 11:52:31,399 [  21070]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 9712 ms 
+2017-09-10 11:52:31,400 [  21071]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-10 11:52:47,380 [  37051]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-09-10 11:52:47,944 [  37615]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 11:52:48,150 [  37821]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-10 11:52:50,072 [  39743]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-10 11:52:50,072 [  39743]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-10 11:52:59,104 [  48775]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-10 11:52:59,700 [  49371]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-10 11:53:00,208 [  49879]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-10 11:53:02,707 [  52378]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:1405 
+2017-09-10 11:53:02,802 [  52473]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:94 
+2017-09-10 11:53:03,668 [  53339]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:560 
+2017-09-10 11:53:03,750 [  53421]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:81 
+2017-09-10 11:53:04,887 [  54558]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-10 11:53:07,684 [  57355]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 46080ms 
+2017-09-10 11:53:08,517 [  58188]   INFO - .intellij.idea.IdeaApplication - App initialization took 66202 ms 
+2017-09-10 11:53:22,216 [  71887]   INFO - pl$FileIndexDataInitialization - Initialization done:19414 
+2017-09-10 11:53:24,844 [  74515]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-10 11:53:24,849 [  74520]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 11:53:27,805 [  77476]   INFO - exImpl$StubIndexInitialization - Initialization done:5588 
+2017-09-10 11:53:28,817 [  78488]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-09-10 11:53:28,848 [  78519]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-09-10 11:53:32,808 [  82479]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@7f99dff0 
+2017-09-10 11:53:33,680 [  83351]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 18943 ms 
+2017-09-10 11:53:34,450 [  84121]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 769 ms 
+2017-09-10 11:53:34,617 [  84288]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@19674bb9 
+2017-09-10 11:53:36,144 [  85815]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-10 11:53:38,374 [  88045]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@25d6e8e6 
+2017-09-10 11:53:41,263 [  90934]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 569ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 11:53:42,281 [  91952]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 976ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 11:53:44,513 [  94184]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-09-10 11:53:44,513 [  94184]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-09-10 11:53:44,542 [  94213]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 3630ms under project opening modal progress 
+2017-09-10 11:53:44,751 [  94422]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 209ms under project opening modal progress 
+2017-09-10 11:53:44,969 [  94640]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 4472ms; general responsiveness: ok; EDT responsiveness: 1/4 sluggish, 2/4 very slow 
+2017-09-10 11:53:45,094 [  94765]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-09-10 11:53:45,094 [  94765]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 209ms on UI thread 
+2017-09-10 11:53:46,577 [  96248]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 259ms on UI thread 
+2017-09-10 11:53:46,715 [  96386]   INFO - tartup.impl.StartupManagerImpl - InitJSchLoggerStartupActivity run in 101ms on UI thread 
+2017-09-10 11:53:47,075 [  96746]   INFO - tartup.impl.StartupManagerImpl - JSUnusedDeclarationsStartupActivity run in 119ms on UI thread 
+2017-09-10 11:53:47,228 [  96899]   INFO - tartup.impl.StartupManagerImpl - JSLanguageServiceStartupActivity run in 134ms on UI thread 
+2017-09-10 11:53:47,334 [  97005]   INFO - tartup.impl.StartupManagerImpl - JSLinterLanguageServicePackageTracker run in 105ms on UI thread 
+2017-09-10 11:53:48,046 [  97717]   INFO - tartup.impl.StartupManagerImpl - WebStormDiagramsConfigurator run in 666ms on UI thread 
+2017-09-10 11:53:48,089 [  97760]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-10 11:53:48,230 [  97901]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-10 11:53:48,980 [  98651]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 11:53:49,604 [  99275]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 35387 ms 
+2017-09-10 11:53:55,004 [ 104675]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-10 11:53:55,004 [ 104675]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-10 11:53:55,004 [ 104675]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-10 11:53:55,047 [ 104718]   INFO - tellij.vcs.log.data.VcsLogData - Username not configured for root file:///home/jswizz/Projects/voting-app 
+2017-09-10 11:53:55,429 [ 105100]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 1 ms 
+2017-09-10 12:06:39,286 [ 868957]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 0 ms 
+2017-09-10 12:10:05,530 [1075201]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:05,530 [1075201]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:05,668 [1075339]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:05,668 [1075339]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:05,840 [1075511]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:05,841 [1075512]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,016 [1075687]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,016 [1075687]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,199 [1075870]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,200 [1075871]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,327 [1075998]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,328 [1075999]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,448 [1076119]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,448 [1076119]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,628 [1076299]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,628 [1076299]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,760 [1076431]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,760 [1076431]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:06,892 [1076563]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:06,892 [1076563]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 12:10:07,026 [1076697]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-10 12:10:07,027 [1076698]   WARN - api.vfs.impl.local.FileWatcher - File watcher failed to start 
+2017-09-10 12:10:21,073 [1090744]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-09-10 12:10:21,073 [1090744]   INFO - ry.NodeModulesDirectoryManager - Associate voting-app/node_modules with [file:///home/jswizz/Projects/voting-app] 
+2017-09-10 12:10:21,188 [1090859]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-09-10 12:10:22,802 [1092473]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 424 to update, calculated in 1560ms 
+2017-09-10 12:10:31,448 [1101119]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 8646ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 12:10:31,450 [1101121]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 12:10:31,477 [1101148]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 27ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 12:10:31,773 [1101444]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 0 ms 
+2017-09-10 12:14:36,644 [1346315]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 12:16:09,116 [1438787]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 12:16:17,882 [1447553]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 280 to update, calculated in 37ms 
+2017-09-10 12:16:19,239 [1448910]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 1349ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 12:16:20,062 [1449733]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 13:49:07,681 [7017352]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-09-10 13:49:07,681 [7017352]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-09-10 13:49:07,681 [7017352]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-09-10 13:49:07,764 [7017435]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-09-10 13:49:07,766 [7017437]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-10 13:49:07,796 [7017467]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1555 auto-detected files
+Elapsed time on auto-detect: 310 ms 
+2017-09-10 13:49:07,800 [7017471]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-09-10 13:49:07,805 [7017476]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-09-10 13:49:07,831 [7017502]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-09-10 13:49:07,862 [7017533]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-10 13:49:20,297 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-10 13:49:20,303 [      6]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-09-10 13:49:20,303 [      6]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-09-10 13:49:20,313 [     16]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:20) 
+2017-09-10 13:49:20,313 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-10 13:49:20,313 [     16]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-10 13:49:20,313 [     16]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-10 13:49:20,315 [     18]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-10 13:49:20,316 [     19]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-10 13:49:20,316 [     19]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-10 13:49:20,331 [     34]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 15 ms 
+2017-09-10 13:49:20,713 [    416]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-10 13:49:20,714 [    417]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-10 13:49:21,568 [   1271]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-10 13:49:21,802 [   1505]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-10 13:49:21,803 [   1506]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-10 13:49:22,163 [   1866]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 1142 ms 
+2017-09-10 13:49:22,164 [   1867]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-10 13:49:22,600 [   2303]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-09-10 13:49:22,640 [   2343]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 13:49:22,649 [   2352]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-10 13:49:22,778 [   2481]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-10 13:49:22,778 [   2481]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-10 13:49:23,518 [   3221]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-10 13:49:23,679 [   3382]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-10 13:49:23,717 [   3420]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-10 13:49:23,880 [   3583]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:55 
+2017-09-10 13:49:23,887 [   3590]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2017-09-10 13:49:23,955 [   3658]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:51 
+2017-09-10 13:49:23,957 [   3660]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2017-09-10 13:49:23,983 [   3686]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-10 13:49:24,126 [   3829]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 3124ms 
+2017-09-10 13:49:24,128 [   3831]   INFO - .intellij.idea.IdeaApplication - App initialization took 4629 ms 
+2017-09-10 13:49:24,819 [   4522]   INFO - pl$FileIndexDataInitialization - Initialization done:932 
+2017-09-10 13:49:24,893 [   4596]   INFO - exImpl$StubIndexInitialization - Initialization done:74 
+2017-09-10 13:49:26,275 [   5978]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-10 13:49:26,277 [   5980]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 13:49:26,504 [   6207]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-09-10 13:49:26,505 [   6208]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-09-10 13:49:27,037 [   6740]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@56584cb9 
+2017-09-10 13:49:27,113 [   6816]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 1822 ms 
+2017-09-10 13:49:27,176 [   6879]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 62 ms 
+2017-09-10 13:49:27,461 [   7164]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-10 13:49:27,831 [   7534]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@78330ab5 
+2017-09-10 13:49:28,305 [   8008]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@246c5269 
+2017-09-10 13:49:28,454 [   8157]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 70ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 13:49:29,267 [   8970]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 791ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 13:49:29,622 [   9325]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 1347ms under project opening modal progress 
+2017-09-10 13:49:29,697 [   9400]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-09-10 13:49:29,771 [   9474]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 149ms under project opening modal progress 
+2017-09-10 13:49:29,864 [   9567]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 1645ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish 
+2017-09-10 13:49:30,750 [  10453]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-10 13:49:30,787 [  10490]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-10 13:49:31,030 [  10733]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 234 ms, not matched: [] 
+2017-09-10 13:49:31,136 [  10839]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 13:49:32,591 [  12294]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7473 ms 
+2017-09-10 13:49:34,079 [  13782]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-10 13:49:34,080 [  13783]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-10 13:49:34,080 [  13783]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-10 13:49:34,560 [  14263]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 419 ms 
+2017-09-10 13:49:44,586 [  24289]   INFO - ellij.project.impl.ProjectImpl - 14 project components initialized in 35 ms 
+2017-09-10 13:49:56,696 [  36399]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-09-10 13:49:56,697 [  36400]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-09-10 13:49:56,697 [  36400]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-09-10 13:49:56,786 [  36489]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-09-10 13:49:56,790 [  36493]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-10 13:49:56,792 [  36495]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 12 ms 
+2017-09-10 13:49:56,794 [  36497]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-09-10 13:49:56,799 [  36502]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-09-10 13:49:56,809 [  36512]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-09-10 13:49:56,824 [  36527]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-09-10 13:49:56,828 [  36531]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-10 13:50:02,544 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-10 13:50:02,551 [      7]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-09-10 13:50:02,551 [      7]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-09-10 13:50:02,560 [     16]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:02) 
+2017-09-10 13:50:02,560 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-10 13:50:02,561 [     17]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-10 13:50:02,561 [     17]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-10 13:50:02,562 [     18]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-10 13:50:02,562 [     18]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-10 13:50:02,562 [     18]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-10 13:50:02,579 [     35]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 17 ms 
+2017-09-10 13:50:03,010 [    466]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-10 13:50:03,011 [    467]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-10 13:50:03,750 [   1206]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-10 13:50:03,898 [   1354]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-10 13:50:03,900 [   1356]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-10 13:50:04,193 [   1649]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 913 ms 
+2017-09-10 13:50:04,194 [   1650]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-10 13:50:04,591 [   2047]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-09-10 13:50:04,625 [   2081]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-10 13:50:04,634 [   2090]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-10 13:50:04,752 [   2208]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-10 13:50:04,752 [   2208]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-10 13:50:05,684 [   3140]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-10 13:50:05,850 [   3306]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-10 13:50:05,945 [   3401]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-10 13:50:06,368 [   3824]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:138 
+2017-09-10 13:50:06,380 [   3836]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:11 
+2017-09-10 13:50:06,458 [   3914]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:54 
+2017-09-10 13:50:06,461 [   3917]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:2 
+2017-09-10 13:50:06,532 [   3988]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-10 13:50:06,735 [   4191]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 3465ms 
+2017-09-10 13:50:06,747 [   4203]   INFO - .intellij.idea.IdeaApplication - App initialization took 5058 ms 
+2017-09-10 13:50:07,630 [   5086]   INFO - pl$FileIndexDataInitialization - Initialization done:1249 
+2017-09-10 13:50:07,744 [   5200]   INFO - exImpl$StubIndexInitialization - Initialization done:106 
+2017-09-10 13:50:07,986 [   5442]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-09-10 13:50:07,991 [   5447]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-09-10 13:50:08,775 [   6231]   INFO - ellij.project.impl.ProjectImpl - 14 project components initialized in 196 ms 
+2017-09-10 13:50:08,952 [   6408]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@2d9ca9af 
+2017-09-10 13:50:09,281 [   6737]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@4d30ff8a 
+2017-09-10 13:50:09,456 [   6912]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@5266052e 
+2017-09-10 13:50:12,037 [   9493]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-10 13:50:12,039 [   9495]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 13:50:12,848 [  10304]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 1138 ms 
+2017-09-10 13:50:12,910 [  10366]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 61 ms 
+2017-09-10 13:50:13,581 [  11037]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-10 13:50:14,506 [  11962]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 134ms under project opening modal progress 
+2017-09-10 13:50:14,507 [  11963]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 20ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 13:50:14,632 [  12088]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 323ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 13:50:15,174 [  12630]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-10 13:50:15,460 [  12916]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-10 13:50:15,636 [  13092]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1126ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2017-09-10 13:50:15,758 [  13214]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 110 ms, not matched: [] 
+2017-09-10 13:50:15,825 [  13281]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-10 13:50:17,041 [  14497]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-09-10 13:50:17,041 [  14497]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 110ms on UI thread 
+2017-09-10 13:50:17,734 [  15190]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6041 ms 
+2017-09-10 14:01:21,993 [ 679449]   INFO - plication.impl.ApplicationImpl - ApplicationImpl.externalInstanceListener invocation 
+2017-09-10 14:01:21,995 [ 679451]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2017-09-10 14:46:13,452 [3370908]   INFO -  #git4idea.commands.GitHandler - [voting-app] git -c core.quotepath=false -c log.showSignature=false rm --ignore-unmatch --cached -- .idea/inspectionProfiles/profiles_settings.xml 
+2017-09-10 14:46:14,876 [3372332]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-10 14:46:14,876 [3372332]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-10 14:46:14,876 [3372332]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-10 14:46:15,463 [3372919]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 468 ms 
+2017-09-10 14:51:14,269 [3671725]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: home.vue 
+2017-09-10 14:51:14,269 [3671725]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: router.js 
+2017-09-10 14:51:14,269 [3671725]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: home.vue 
+2017-09-10 14:51:14,269 [3671725]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: router.js 
+2017-09-10 14:53:32,525 [3809981]   INFO -  #git4idea.commands.GitHandler - [voting-app] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -- app/components/newpoll.vue 
+2017-09-10 14:57:19,423 [4036879]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 357 ms 
+2017-09-10 15:07:00,466 [4617922]   INFO -  #git4idea.commands.GitHandler - [voting-app] git -c core.quotepath=false -c log.showSignature=false add --ignore-errors -- app/components/polloption.vue 
+2017-09-10 15:13:41,903 [5019359]   INFO -  #git4idea.commands.GitHandler - [voting-app] git -c core.quotepath=false -c log.showSignature=false rm --ignore-unmatch --cached -- app/components/polloption.vue 
+2017-09-10 15:19:21,039 [5358495]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 76 ms, not matched: [] 
+2017-09-10 15:19:32,474 [5369930]   INFO - ascript.nodejs.PackageJsonData - Failed to parse /home/jswizz/Projects/voting-app/package.json: Unterminated object at line 10 column 6 path $.scripts. 
+2017-09-10 15:19:59,023 [5396479]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 80 ms, not matched: [] 
+2017-09-10 15:24:30,135 [5667591]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:24:30,639 [5668095]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:25:56,417 [5753873]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 508 ms 
+2017-09-10 15:25:56,515 [5753971]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 605 ms 
+2017-09-10 15:27:02,920 [5820376]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:27:16,649 [5834105]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 11;? 
+2017-09-10 15:27:26,420 [5843876]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:27:40,140 [5857596]  ERROR - terminal.emulator.JediEmulator - Error processing OSC 11;? 
+2017-09-10 15:28:22,987 [5900443]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:28:26,503 [5903959]   WARN - ewvfs.persistent.RefreshWorker - [+] fs=LocalFileSystem dir=file:///home/jswizz/Projects/voting-app/.git name=index.lock 
+2017-09-10 15:28:31,116 [5908572]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 15:28:49,376 [5926832]   WARN - ntellij.vcs.log.data.RefsModel - No references at head a1314c7718873f4cddc9291ddf80169c8c419790(file:///home/jswizz/Projects/voting-app) 
+2017-09-10 15:28:59,560 [5937016]   INFO - .script.IdeScriptEngineManager - javax.script.ScriptEngineManager initialized in 124 ms 
+2017-09-10 15:30:10,235 [6007691]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at com.jediterm.terminal.ui.TerminalPanel.handleHyperlinks(TerminalPanel.java:330)
+	at com.jediterm.terminal.ui.TerminalPanel.processKeyEvent(TerminalPanel.java:864)
+	at java.awt.Component.processEvent(Component.java:6318)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:806)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1074)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:945)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:771)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:27)
+	at java.awt.Component.dispatchEventImpl(Component.java:4768)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at com.intellij.terminal.JBTerminalPanel.dispatch(JBTerminalPanel.java:149)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:655)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:608)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - WebStorm 2017.2.3  Build #WS-172.3968.27 
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2017-09-10 15:30:10,236 [6007692]  ERROR - llij.ide.plugins.PluginManager - Last Action: SaveAll 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at com.jediterm.terminal.ui.TerminalPanel.handleHyperlinks(TerminalPanel.java:330)
+	at com.jediterm.terminal.ui.TerminalPanel.processKeyEvent(TerminalPanel.java:864)
+	at java.awt.Component.processEvent(Component.java:6318)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:806)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1074)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:945)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:771)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:27)
+	at java.awt.Component.dispatchEventImpl(Component.java:4768)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at com.intellij.terminal.JBTerminalPanel.dispatch(JBTerminalPanel.java:149)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:655)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:608)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - WebStorm 2017.2.3  Build #WS-172.3968.27 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2017-09-10 15:30:10,237 [6007693]  ERROR - llij.ide.plugins.PluginManager - Last Action: SaveAll 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at com.jediterm.terminal.ui.TerminalPanel.handleHyperlinks(TerminalPanel.java:330)
+	at com.jediterm.terminal.ui.TerminalPanel.processKeyEvent(TerminalPanel.java:864)
+	at java.awt.Component.processEvent(Component.java:6318)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:806)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1074)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:945)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:771)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:27)
+	at java.awt.Component.dispatchEventImpl(Component.java:4768)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at com.intellij.terminal.JBTerminalPanel.dispatch(JBTerminalPanel.java:149)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:655)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:608)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - WebStorm 2017.2.3  Build #WS-172.3968.27 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2017-09-10 15:30:10,443 [6007899]  ERROR - llij.ide.plugins.PluginManager - Last Action: SaveAll 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at com.jediterm.terminal.ui.TerminalPanel.handleHyperlinks(TerminalPanel.java:330)
+	at com.jediterm.terminal.ui.TerminalPanel.processKeyEvent(TerminalPanel.java:864)
+	at java.awt.Component.processEvent(Component.java:6318)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1954)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:806)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1074)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:945)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:771)
+	at com.intellij.ide.IdeKeyboardFocusManager.dispatchEvent(IdeKeyboardFocusManager.java:27)
+	at java.awt.Component.dispatchEventImpl(Component.java:4768)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at com.intellij.terminal.JBTerminalPanel.dispatch(JBTerminalPanel.java:149)
+	at com.intellij.ide.IdeEventQueue.a(IdeEventQueue.java:655)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:608)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - WebStorm 2017.2.3  Build #WS-172.3968.27 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2017-09-10 15:30:10,455 [6007911]  ERROR - llij.ide.plugins.PluginManager - Last Action: SaveAll 
+2017-09-10 15:36:37,459 [6394915]  ERROR - llij.ide.plugins.PluginManager - null 
+java.lang.NullPointerException
+	at com.intellij.codeInsight.editorActions.smartEnter.SmartEnterProcessor.reformat(SmartEnterProcessor.java:44)
+	at com.intellij.lang.javascript.editing.JSSmartEnterProcessor.insertCommitReformat(JSSmartEnterProcessor.java:261)
+	at com.intellij.lang.javascript.editing.JSSmartEnterProcessor.addSemicolonIfNeeded(JSSmartEnterProcessor.java:227)
+	at com.intellij.lang.javascript.editing.JSSmartEnterProcessor.process(JSSmartEnterProcessor.java:131)
+	at com.intellij.codeInsight.editorActions.smartEnter.SmartEnterAction$Handler.executeWriteAction(SmartEnterAction.java:94)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler$1.run(EditorWriteActionHandler.java:50)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteAction(ApplicationImpl.java:1030)
+	at com.intellij.openapi.editor.actionSystem.EditorWriteActionHandler.doExecute(EditorWriteActionHandler.java:63)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler$3$1.perform(EditorActionHandler.java:206)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.doIfEnabled(EditorActionHandler.java:109)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.access$000(EditorActionHandler.java:38)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler$3.perform(EditorActionHandler.java:203)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.a(CaretModelImpl.java:356)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.doWithCaretMerging(CaretModelImpl.java:445)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:348)
+	at com.intellij.openapi.editor.impl.CaretModelImpl.runForEachCaret(CaretModelImpl.java:339)
+	at com.intellij.openapi.editor.actionSystem.EditorActionHandler.execute(EditorActionHandler.java:200)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.lambda$actionPerformed$0(EditorAction.java:98)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.a(CoreCommandProcessor.java:149)
+	at com.intellij.openapi.command.impl.CoreCommandProcessor.executeCommand(CoreCommandProcessor.java:109)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:107)
+	at com.intellij.openapi.editor.actionSystem.EditorAction.actionPerformed(EditorAction.java:86)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil$1.run(ActionUtil.java:216)
+	at com.intellij.openapi.actionSystem.ex.ActionUtil.performActionDumbAware(ActionUtil.java:233)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher$1.performAction(IdeKeyEventDispatcher.java:576)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.a(IdeKeyEventDispatcher.java:625)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:193)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.processAction(IdeKeyEventDispatcher.java:624)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.a(IdeKeyEventDispatcher.java:479)
+	at com.intellij.openapi.keymap.impl.IdeKeyEventDispatcher.dispatchKeyEvent(IdeKeyEventDispatcher.java:213)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:621)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - WebStorm 2017.2.3  Build #WS-172.3968.27 
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - OS: Linux 
+2017-09-10 15:36:37,460 [6394916]  ERROR - llij.ide.plugins.PluginManager - Last Action: EditorCompleteStatement 
+2017-09-10 15:43:18,631 [6796087]   INFO - .diagnostic.PerformanceWatcher - Find Usages took 311ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 15:48:12,850 [7090306]   INFO - .diagnostic.PerformanceWatcher - Find Usages took 42ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 15:48:25,026 [7102482]   INFO - .diagnostic.PerformanceWatcher - Find Usages took 150ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 15:52:14,452 [7331908]   INFO - .diagnostic.PerformanceWatcher - Find Usages took 2ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-10 16:07:11,071 [8228527]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 16:07:43,136 [8260592]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 16:37:45,405 [10062861]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 16:38:07,130 [10084586]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-10 16:38:32,821 [10110277]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-09-10 16:38:32,821 [10110277]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-09-10 16:38:32,822 [10110278]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-09-10 16:38:32,862 [10110318]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-09-10 16:38:32,872 [10110328]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-10 16:38:32,877 [10110333]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 10 auto-detected files
+E2017-09-11 21:56:58,021 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-11 21:56:58,102 [     81]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-09-11 21:56:58,102 [     81]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-09-11 21:56:58,167 [    146]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:58) 
+2017-09-11 21:56:58,167 [    146]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-11 21:56:58,167 [    146]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-11 21:56:58,168 [    147]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-11 21:56:58,204 [    183]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-11 21:56:58,204 [    183]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-11 21:56:58,204 [    183]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-11 21:56:58,246 [    225]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 42 ms 
+2017-09-11 21:57:00,298 [   2277]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-11 21:57:00,304 [   2283]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-11 21:57:02,469 [   4448]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-11 21:57:03,789 [   5768]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-11 21:57:03,789 [   5768]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-11 21:57:04,210 [   6189]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 3054 ms 
+2017-09-11 21:57:04,211 [   6190]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-11 21:57:07,850 [   9829]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-09-11 21:57:08,217 [  10196]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-11 21:57:08,260 [  10239]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-11 21:57:09,206 [  11185]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-11 21:57:09,206 [  11185]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-11 21:57:14,344 [  16323]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-11 21:57:14,949 [  16928]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-11 21:57:15,322 [  17301]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-11 21:57:17,036 [  19015]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:1039 
+2017-09-11 21:57:17,087 [  19066]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:50 
+2017-09-11 21:57:18,328 [  20307]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:1036 
+2017-09-11 21:57:18,329 [  20308]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2017-09-11 21:57:20,710 [  22689]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-11 21:57:22,973 [  24952]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 21829ms 
+2017-09-11 21:57:23,021 [  25000]   INFO - .intellij.idea.IdeaApplication - App initialization took 31496 ms 
+2017-09-11 21:57:33,317 [  35296]   INFO - pl$FileIndexDataInitialization - Initialization done:16230 
+2017-09-11 21:57:36,969 [  38948]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-11 21:57:36,970 [  38949]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-11 21:57:39,277 [  41256]   INFO - exImpl$StubIndexInitialization - Initialization done:5958 
+2017-09-11 21:57:40,301 [  42280]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-09-11 21:57:40,315 [  42294]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-09-11 21:57:43,893 [  45872]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 15786 ms 
+2017-09-11 21:57:44,233 [  46212]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 339 ms 
+2017-09-11 21:57:44,416 [  46395]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@1c481eec 
+2017-09-11 21:57:45,396 [  47375]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-11 21:57:46,101 [  48080]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@6d2d8e5 
+2017-09-11 21:57:48,488 [  50467]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@1a46bbc5 
+2017-09-11 21:57:48,784 [  50763]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 69ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-11 21:57:50,551 [  52530]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1765ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-11 21:57:53,322 [  55301]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 4534ms under project opening modal progress 
+2017-09-11 21:57:53,782 [  55761]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 460ms under project opening modal progress 
+2017-09-11 21:57:53,951 [  55930]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 5460ms; general responsiveness: ok; EDT responsiveness: 1/6 sluggish, 3/6 very slow 
+2017-09-11 21:57:55,132 [  57111]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-09-11 21:57:55,133 [  57112]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 230ms on UI thread 
+2017-09-11 21:57:55,762 [  57741]   INFO - tartup.impl.StartupManagerImpl - JSUnusedDeclarationsStartupActivity run in 278ms on UI thread 
+2017-09-11 21:57:56,740 [  58719]   INFO - tartup.impl.StartupManagerImpl - WebStormDiagramsConfigurator run in 797ms on UI thread 
+2017-09-11 21:57:56,757 [  58736]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-11 21:57:57,059 [  59038]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-11 21:57:59,044 [  61023]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 2345 ms, not matched: [] 
+2017-09-11 21:57:59,110 [  61089]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-11 21:58:01,765 [  63744]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 33912 ms 
+2017-09-11 21:58:07,310 [  69289]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 2803 ms 
+2017-09-11 21:58:07,946 [  69925]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-11 21:58:07,946 [  69925]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-11 21:58:07,946 [  69925]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-11 22:04:55,821 [ 477800]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:05:12,860 [ 494839]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 441 ms 
+2017-09-11 22:09:38,270 [ 760249]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:15:00,517 [1082496]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:16:19,688 [1161667]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 346 ms 
+2017-09-11 22:26:37,578 [1779557]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:29:11,329 [1933308]   INFO - .diagnostic.PerformanceWatcher - Find Usages took 653ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-11 22:30:23,910 [2005889]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-09-11 22:30:23,910 [2005889]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-11 22:37:27,856 [2429835]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:48:35,510 [3097489]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:50:04,972 [3186951]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:52:02,282 [3304261]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:52:23,024 [3325003]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:52:53,349 [3355328]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:53:40,638 [3402617]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:54:32,183 [3454162]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:56:07,077 [3549056]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:56:58,061 [3600040]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:57:32,411 [3634390]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 22:57:49,965 [3651944]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 399 ms 
+2017-09-11 22:57:56,950 [3658929]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:03:22,561 [3984540]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:03:40,573 [4002552]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:03:44,285 [4006264]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:03:47,280 [4009259]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:04:24,886 [4046865]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-11 23:04:34,962 [4056941]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2017-09-11 23:04:34,962 [4056941]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2017-09-11 23:04:34,962 [4056941]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2017-09-11 23:04:35,048 [4057027]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2017-09-11 23:04:35,066 [4057045]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-11 23:04:35,091 [4057070]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1 auto-detected files
+Elapsed time on auto-detect: 29 ms 
+2017-09-11 23:04:35,099 [4057078]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2017-09-11 23:04:35,102 [4057081]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2017-09-11 23:04:35,106 [4057085]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2017-09-11 23:04:35,112 [4057091]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2017-09-11 23:04:35,129 [4057108]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2017-09-16 15:05:27,341 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-09-16 15:05:27,434 [     93]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-09-16 15:05:27,434 [     93]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-09-16 15:05:27,485 [    144]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:27) 
+2017-09-16 15:05:27,485 [    144]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-09-16 15:05:27,485 [    144]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-09-16 15:05:27,485 [    144]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-09-16 15:05:27,535 [    194]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-09-16 15:05:27,536 [    195]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-09-16 15:05:27,536 [    195]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-09-16 15:05:27,605 [    264]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 68 ms 
+2017-09-16 15:05:29,328 [   1987]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-09-16 15:05:29,332 [   1991]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-09-16 15:05:31,740 [   4399]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-09-16 15:05:32,967 [   5626]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-09-16 15:05:32,968 [   5627]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-09-16 15:05:33,481 [   6140]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 3217 ms 
+2017-09-16 15:05:33,482 [   6141]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-09-16 15:05:36,732 [   9391]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-09-16 15:05:37,083 [   9742]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-09-16 15:05:37,170 [   9829]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-09-16 15:05:37,767 [  10426]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-09-16 15:05:37,767 [  10426]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-09-16 15:05:43,393 [  16052]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-09-16 15:05:44,010 [  16669]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-09-16 15:05:44,442 [  17101]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-09-16 15:05:46,143 [  18802]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:853 
+2017-09-16 15:05:46,181 [  18840]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:38 
+2017-09-16 15:05:46,968 [  19627]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:676 
+2017-09-16 15:05:46,970 [  19629]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:1 
+2017-09-16 15:05:47,490 [  20149]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-09-16 15:05:49,354 [  22013]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 19183ms 
+2017-09-16 15:05:49,398 [  22057]   INFO - .intellij.idea.IdeaApplication - App initialization took 28162 ms 
+2017-09-16 15:05:58,576 [  31235]   INFO - pl$FileIndexDataInitialization - Initialization done:12395 
+2017-09-16 15:06:02,865 [  35524]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-09-16 15:06:02,866 [  35525]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-16 15:06:05,548 [  38207]   INFO - exImpl$StubIndexInitialization - Initialization done:6971 
+2017-09-16 15:06:06,476 [  39135]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-09-16 15:06:06,497 [  39156]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-09-16 15:06:08,647 [  41306]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@1f3292b7 
+2017-09-16 15:06:09,261 [  41920]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 16160 ms 
+2017-09-16 15:06:09,509 [  42168]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 239 ms 
+2017-09-16 15:06:10,359 [  43018]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-09-16 15:06:10,373 [  43032]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@7e896910 
+2017-09-16 15:06:12,359 [  45018]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@5fa528d6 
+2017-09-16 15:06:15,033 [  47692]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 136ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-16 15:06:16,776 [  49435]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1740ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-09-16 15:06:19,717 [  52376]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 4827ms under project opening modal progress 
+2017-09-16 15:06:19,901 [  52560]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 184ms under project opening modal progress 
+2017-09-16 15:06:20,048 [  52707]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 5325ms; general responsiveness: ok; EDT responsiveness: 2/7 sluggish, 5/7 very slow 
+2017-09-16 15:06:21,754 [  54413]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-09-16 15:06:21,759 [  54418]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 200ms on UI thread 
+2017-09-16 15:06:22,252 [  54911]   INFO - tartup.impl.StartupManagerImpl - JSUnusedDeclarationsStartupActivity run in 175ms on UI thread 
+2017-09-16 15:06:22,767 [  55426]   INFO - tartup.impl.StartupManagerImpl - WebStormDiagramsConfigurator run in 397ms on UI thread 
+2017-09-16 15:06:22,781 [  55440]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-09-16 15:06:23,045 [  55704]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-09-16 15:06:24,473 [  57132]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-09-16 15:06:25,200 [  57859]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 2575 ms, not matched: [] 
+2017-09-16 15:06:26,600 [  59259]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 33970 ms 
+2017-09-16 15:06:28,926 [  61585]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 1865 ms 
+2017-09-16 15:06:28,932 [  61591]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 1133 ms 
+2017-09-16 15:06:30,323 [  62982]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-09-16 15:06:30,323 [  62982]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-09-16 15:06:30,324 [  62983]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-09-16 15:08:54,106 [ 206765]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 76 ms, not matched: [] 
+2017-09-16 15:09:05,917 [ 218576]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-09-16 15:14:47,534 [ 560193]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2017-11-01 20:22:13,040 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-11-01 20:22:13,126 [     86]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-11-01 20:22:13,126 [     86]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-11-01 20:22:13,179 [    139]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:13) 
+2017-11-01 20:22:13,179 [    139]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-11-01 20:22:13,179 [    139]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-11-01 20:22:13,179 [    139]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-11-01 20:22:13,247 [    207]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-11-01 20:22:13,248 [    208]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-11-01 20:22:13,248 [    208]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-11-01 20:22:13,293 [    253]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 45 ms 
+2017-11-01 20:22:15,655 [   2615]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-11-01 20:22:15,659 [   2619]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-11-01 20:22:19,379 [   6339]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-11-01 20:22:21,316 [   8276]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-11-01 20:22:21,317 [   8277]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-11-01 20:22:22,061 [   9021]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 5137 ms 
+2017-11-01 20:22:22,062 [   9022]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-11-01 20:22:25,381 [  12341]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-11-01 20:22:25,709 [  12669]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-01 20:22:25,735 [  12695]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-11-01 20:22:26,339 [  13299]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-11-01 20:22:26,339 [  13299]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-11-01 20:22:30,669 [  17629]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-11-01 20:22:31,089 [  18049]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-11-01 20:22:31,321 [  18281]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-11-01 20:22:32,528 [  19488]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:687 
+2017-11-01 20:22:32,579 [  19539]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:51 
+2017-11-01 20:22:33,116 [  20076]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:445 
+2017-11-01 20:22:33,127 [  20087]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:10 
+2017-11-01 20:22:33,554 [  20514]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-11-01 20:22:34,878 [  21838]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 17973ms 
+2017-11-01 20:22:35,098 [  22058]   INFO - .intellij.idea.IdeaApplication - App initialization took 29772 ms 
+2017-11-01 20:22:48,215 [  35175]   INFO - pl$FileIndexDataInitialization - Initialization done:15635 
+2017-11-01 20:22:49,917 [  36877]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-11-01 20:22:49,918 [  36878]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-11-01 20:22:53,684 [  40644]   INFO - exImpl$StubIndexInitialization - Initialization done:5469 
+2017-11-01 20:22:54,673 [  41633]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:22:54,685 [  41645]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=15, fontScale=1.25; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:22:58,801 [  45761]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@6ccab944 
+2017-11-01 20:22:59,873 [  46833]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 18401 ms 
+2017-11-01 20:23:00,412 [  47372]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 538 ms 
+2017-11-01 20:23:01,201 [  48161]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@69ae796f 
+2017-11-01 20:23:02,374 [  49334]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-11-01 20:23:04,639 [  51599]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@ec0a28f 
+2017-11-01 20:23:09,674 [  56634]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 97ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-01 20:23:09,942 [  56902]   INFO - tartup.impl.StartupManagerImpl - BreadcrumbsInitializingActivity run in 213ms under project opening modal progress 
+2017-11-01 20:23:12,740 [  59700]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 3064ms; general responsiveness: ok; EDT responsiveness: 0/1 sluggish, 1/1 very slow 
+2017-11-01 20:23:20,123 [  67083]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-11-01 20:23:20,123 [  67083]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-11-01 20:23:25,843 [  72803]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 15901ms under project opening modal progress 
+2017-11-01 20:23:25,984 [  72944]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 141ms under project opening modal progress 
+2017-11-01 20:23:27,363 [  74323]   INFO - tartup.impl.StartupManagerImpl - JsbtStartupActivity run in 1215ms under project opening modal progress 
+2017-11-01 20:23:27,437 [  74397]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 18231ms; general responsiveness: 1/18 sluggish; EDT responsiveness: 3/18 sluggish, 15/18 very slow 
+2017-11-01 20:23:29,364 [  76324]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-11-01 20:23:29,367 [  76327]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 180ms on UI thread 
+2017-11-01 20:23:31,058 [  78018]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 1687ms on UI thread 
+2017-11-01 20:23:31,358 [  78318]   INFO - tartup.impl.StartupManagerImpl - ProjectDeploymentRevisionTrackerStartupActivity run in 252ms on UI thread 
+2017-11-01 20:23:31,521 [  78481]   INFO - tartup.impl.StartupManagerImpl - InitJSchLoggerStartupActivity run in 162ms on UI thread 
+2017-11-01 20:23:32,694 [  79654]   INFO - tartup.impl.StartupManagerImpl - JSUnusedDeclarationsStartupActivity run in 301ms on UI thread 
+2017-11-01 20:23:32,949 [  79909]   INFO - tartup.impl.StartupManagerImpl - TypeScriptCompileStartupActivity run in 250ms on UI thread 
+2017-11-01 20:23:33,483 [  80443]   INFO - tartup.impl.StartupManagerImpl - JSLinterLanguageServicePackageTracker run in 531ms on UI thread 
+2017-11-01 20:23:34,054 [  81014]   INFO - tartup.impl.StartupManagerImpl - WebStormDiagramsConfigurator run in 529ms on UI thread 
+2017-11-01 20:23:34,063 [  81023]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-11-01 20:23:34,864 [  81824]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-11-01 20:23:35,911 [  82871]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-11-01 20:23:37,364 [  84324]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-11-01 20:23:37,364 [  84324]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-11-01 20:23:37,364 [  84324]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-11-01 20:23:37,974 [  84934]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 4289 ms, not matched: [] 
+2017-11-01 20:23:39,159 [  86119]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: clickController.client.js 
+2017-11-01 20:23:39,160 [  86120]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: clickHandler.server.js 
+2017-11-01 20:23:39,758 [  86718]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: index.js 
+2017-11-01 20:23:39,758 [  86718]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: server.js 
+2017-11-01 20:23:41,264 [  88224]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 61705 ms 
+2017-11-01 20:24:05,609 [ 112569]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 8933 ms 
+2017-11-01 20:36:34,344 [ 861304]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:36:51,140 [ 878100]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 531 ms 
+2017-11-01 20:37:02,062 [ 889022]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:37:25,856 [ 912816]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:37:38,974 [ 925934]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:37:40,133 [ 927093]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:37:53,924 [ 940884]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:38:03,193 [ 950153]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:38:19,937 [ 966897]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-01 20:38:43,744 [ 990704]   WARN - ellij.openapi.ui.DialogWrapper - Stale listener: com.intellij.ide.ui.laf.LafManagerImpl$OurPopupFactory$1@528c0933 
+2017-11-19 09:25:29,475 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2017-11-19 09:25:29,533 [     58]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2017-11-19 09:25:29,534 [     59]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.25 (IDE-managed HiDPI) 
+2017-11-19 09:25:29,578 [    103]   INFO -        #com.intellij.idea.Main - IDE: WebStorm (build #WS-172.3968.27, 29 Aug 2017 04:29) 
+2017-11-19 09:25:29,579 [    104]   INFO -        #com.intellij.idea.Main - OS: Linux (4.10.0-19-generic, amd64) 
+2017-11-19 09:25:29,579 [    104]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b11 (JetBrains s.r.o) 
+2017-11-19 09:25:29,579 [    104]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b11 (OpenJDK 64-Bit Server VM) 
+2017-11-19 09:25:29,626 [    151]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/opt/WebStorm-172.3968.27/lib/boot.jar -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/jswizz/java_error_in_WEBIDE_%p.log -XX:HeapDumpPath=/home/jswizz/java_error_in_WEBIDE.hprof -Didea.paths.selector=WebStorm2017.2 -Djb.vmOptionsFile=/opt/WebStorm-172.3968.27/bin/webstorm64.vmoptions -Didea.platform.prefix=WebStorm 
+2017-11-19 09:25:29,626 [    151]   INFO -        #com.intellij.idea.Main - ext: /opt/WebStorm-172.3968.27/jre64/lib/ext: [sunpkcs11.jar, zipfs.jar, dnsns.jar, cldrdata.jar, localedata.jar, jaccess.jar, sunec.jar, sunjce_provider.jar, nashorn.jar, jfxrt.jar, meta-index] 
+2017-11-19 09:25:29,626 [    151]   INFO -        #com.intellij.idea.Main - JNU charset: UTF-8 
+2017-11-19 09:25:29,679 [    204]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 52 ms 
+2017-11-19 09:25:31,724 [   2249]   INFO - .intellij.idea.IdeaApplication - WM detected: Mutter(Budgie) 
+2017-11-19 09:25:31,753 [   2278]   INFO - llij.openapi.wm.impl.X11UiUtil - impersonated WM: MUTTER_WM 
+2017-11-19 09:25:33,769 [   4294]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor js-nashorn-support.xml 
+2017-11-19 09:25:34,941 [   5466]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-properties-support.xml 
+2017-11-19 09:25:34,942 [   5467]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor uml-java-support.xml 
+2017-11-19 09:25:35,412 [   5937]   INFO - llij.ide.plugins.PluginManager - 57 plugins initialized in 2900 ms 
+2017-11-19 09:25:35,413 [   5938]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: ASP (0.1), AngularJS (172.3968.27), CSS Support (172.3968.27), CVS Integration (11), CoffeeScript (2.0), Cucumber.js (0.1), Dart (172.3968.27), Docker integration (172.3968.27), EJS (172.3968.27), EditorConfig (172.3968.27), File Watchers (172.3968.27), Gherkin (999.999), Git Integration (8.1), GitHub (172.3968.27), HTML Tools (2.0), Haml (172.3968.27), Handlebars/Mustache (172.3968.27), IDEA CORE (172.3968.27), IntelliLang (8.0), Java Server Pages (JSP) Integration (1.0), JavaScript Debugger (1.0), JavaScript Intention Power Pack (0.9.4), JavaScript Support (1.0), Karma (172.3968.27), Less support (172.3968.27), LiveEdit (172.3968.27), Meteor (172.3968.27), Node.js Remote Interpreter (172.3968.27), NodeJS (172.3968.27), Perforce Integration (2.0), PhoneGap/Cordova Plugin (172.3968.27), Polymer & Web Components (999.999), Pug (ex-Jade) (172.3968.27), QuirksMode (172.3968.27), REST Client (172.3968.27), Refactor-X (2.01), Remote Hosts Access (0.1), SSH Remote Run (0.1), Sass support (172.3968.27), Settings Repository (172.3968.27), Spy-js (172.3968.27), Stylus support (999.999), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), TextMate bundles support (172.3968.27), Time Tracking (1.0), UML Support (1.0), Vagrant (172.3968.27), Vue.js (172.3968.27), W3C Validators (2.0), XPathView + XSLT Support (4), XSLT-Debugger (1.4), YAML (172.3968.27), Yeoman (172.3968.27), hg4idea (10.0), tslint (172.3968.27) 
+2017-11-19 09:25:39,634 [  10159]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2017-11-19 09:25:39,987 [  10512]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:25:40,055 [  10580]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2017-11-19 09:25:40,720 [  11245]   INFO - pi.util.registry.RegistryState - Registry values changed by user: 
+2017-11-19 09:25:40,721 [  11246]   INFO - pi.util.registry.RegistryState -   dumb.aware.run.configurations = true 
+2017-11-19 09:25:45,523 [  16048]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2017-11-19 09:25:46,295 [  16820]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2017-11-19 09:25:47,012 [  17537]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2017-11-19 09:25:48,198 [  18723]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:989 
+2017-11-19 09:25:48,306 [  18831]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:107 
+2017-11-19 09:25:49,977 [  20502]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:474 
+2017-11-19 09:25:49,985 [  20510]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:7 
+2017-11-19 09:25:51,365 [  21890]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2017-11-19 09:25:52,905 [  23430]   INFO - plication.impl.ApplicationImpl - 79 application components initialized in 20402ms 
+2017-11-19 09:25:52,952 [  23477]   INFO - .intellij.idea.IdeaApplication - App initialization took 29935 ms 
+2017-11-19 09:25:59,971 [  30496]   INFO - pl$FileIndexDataInitialization - Initialization done:11665 
+2017-11-19 09:26:02,260 [  32785]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2017-11-19 09:26:02,263 [  32788]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-11-19 09:26:03,170 [  33695]   INFO - exImpl$StubIndexInitialization - Initialization done:3199 
+2017-11-19 09:26:03,993 [  34518]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-19 09:26:04,007 [  34532]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=16, fontScale=1.25; restored: fontSize=16, fontScale=1.25 
+2017-11-19 09:26:06,409 [  36934]   INFO - ellij.project.impl.ProjectImpl - 102 project components initialized in 10056 ms 
+2017-11-19 09:26:06,708 [  37233]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 298 ms 
+2017-11-19 09:26:06,842 [  37367]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@32a77eac 
+2017-11-19 09:26:07,646 [  38171]   WARN - om.intellij.util.ProfilingUtil - Profiling agent is not enabled. Add -agentlib:yjpagent to idea.vmoptions if necessary to profile IDEA. 
+2017-11-19 09:26:08,068 [  38593]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@4ac5880e 
+2017-11-19 09:26:09,691 [  40216]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@10c802c8 
+2017-11-19 09:26:11,637 [  42162]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 138ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:26:14,077 [  44602]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2438ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:26:18,804 [  49329]   WARN - tectAndAdjustIndentOptionsTask - Indent detection is too long for: App.vue 
+2017-11-19 09:26:20,780 [  51305]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 9142ms under project opening modal progress 
+2017-11-19 09:26:20,905 [  51430]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 125ms under project opening modal progress 
+2017-11-19 09:26:21,073 [  51598]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 9777ms; general responsiveness: ok; EDT responsiveness: 3/11 sluggish, 7/11 very slow 
+2017-11-19 09:26:22,555 [  53080]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2017-11-19 09:26:22,556 [  53081]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 506ms on UI thread 
+2017-11-19 09:26:23,512 [  54037]   INFO - tartup.impl.StartupManagerImpl - WebStormDiagramsConfigurator run in 257ms on UI thread 
+2017-11-19 09:26:23,527 [  54052]   INFO - tartup.impl.StartupManagerImpl - /home/jswizz/Projects/voting-app/.idea case-sensitivity: expected=true actual=true 
+2017-11-19 09:26:23,553 [  54078]   INFO -                git4idea.GitVcs - Git version: 2.11.0.0 
+2017-11-19 09:26:24,084 [  54609]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/jswizz/Projects/voting-app] 
+2017-11-19 09:26:25,276 [  55801]   INFO - son.PackageVersionRangeMatcher - Matching 12 done in 1810 ms, not matched: [] 
+2017-11-19 09:26:26,457 [  56982]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5.rnc 
+2017-11-19 09:26:26,463 [  56988]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/xhtml5.rnc 
+2017-11-19 09:26:26,463 [  56988]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /opt/WebStorm-172.3968.27/lib/webstorm.jar!/resources/html5-schema/html5chars.ent 
+2017-11-19 09:26:27,174 [  57699]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 31152 ms 
+2017-11-19 09:26:40,978 [  71503]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 4325 ms 
+2017-11-19 09:27:48,874 [ 139399]   INFO - ry.NodeModulesDirectoryManager - Updating node_modules library as /home/jswizz/Projects/voting-app/package.json changed 
+2017-11-19 09:27:49,156 [ 139681]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 24 to update, calculated in 1ms 
+2017-11-19 09:27:49,320 [ 139845]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-11-19 09:27:49,877 [ 140402]   INFO - ackageJsonDependenciesVerifier - Missing 'file-loader' dependency for /home/jswizz/Projects/voting-app/package.json 
+2017-11-19 09:27:49,959 [ 140484]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 802ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:27:50,039 [ 140564]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 0ms 
+2017-11-19 09:27:50,041 [ 140566]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:27:50,234 [ 140759]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 192ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:27:50,234 [ 140759]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 50 files to update 
+2017-11-19 09:27:51,127 [ 141652]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 893ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:27:52,145 [ 142670]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1 
+2017-11-19 09:27:52,146 [ 142671]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 673 ms 
+2017-11-19 09:27:52,244 [ 142769]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1 
+2017-11-19 09:27:52,245 [ 142770]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 773 ms 
+2017-11-19 09:27:52,274 [ 142799]   WARN - dTools.webpack.WebPackExecutor - failed to evaluate webpack config. exit code: 1 
+2017-11-19 09:27:52,275 [ 142800]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 802 ms 
+2017-11-19 09:28:01,793 [ 152318]   INFO - ackageJsonDependenciesVerifier - Missing 'file-loader' dependency for /home/jswizz/Projects/voting-app/package.json 
+2017-11-19 09:28:24,082 [ 174607]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:28:24,082 [ 174607]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:28:24,218 [ 174743]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:28:24,218 [ 174743]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:28:24,350 [ 174875]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:28:24,350 [ 174875]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:28:24,480 [ 175005]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:28:24,480 [ 175005]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:29:21,988 [ 232513]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 857 to update, calculated in 203ms 
+2017-11-19 09:29:36,540 [ 247065]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 14551ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:29:37,336 [ 247861]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 454 ms 
+2017-11-19 09:31:52,926 [ 383451]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-19 09:32:39,362 [ 429887]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-19 09:37:59,460 [ 749985]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-11-19 09:38:38,889 [ 789414]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-11-19 09:39:17,007 [ 827532]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1608 to update, calculated in 166ms 
+2017-11-19 09:39:17,095 [ 827620]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-11-19 09:39:20,861 [ 831386]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 3854ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:39:20,863 [ 831388]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 0ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:39:20,864 [ 831389]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 1ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:40:15,457 [ 885982]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:15,457 [ 885982]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:16,545 [ 887070]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:16,545 [ 887070]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:16,803 [ 887328]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:16,803 [ 887328]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:16,948 [ 887473]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:16,948 [ 887473]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:17,100 [ 887625]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:17,100 [ 887625]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:17,243 [ 887768]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:17,244 [ 887769]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /opt/WebStorm-172.3968.27/bin/fsnotifier64 
+2017-11-19 09:40:17,387 [ 887912]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 3 
+2017-11-19 09:40:17,388 [ 887913]   WARN - api.vfs.impl.local.FileWatcher - File watcher failed to start 
+2017-11-19 09:41:08,762 [ 939287]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-11-19 09:41:08,763 [ 939288]   INFO - ry.NodeModulesDirectoryManager - Associate voting-app/node_modules with [file:///home/jswizz/Projects/voting-app] 
+2017-11-19 09:41:08,783 [ 939308]   INFO - pl.ProjectRootManagerComponent - project roots have changed 
+2017-11-19 09:41:10,319 [ 940844]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 3ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:41:10,352 [ 940877]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 33ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:41:10,353 [ 940878]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1612 files to update 
+2017-11-19 09:41:11,898 [ 942423]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-11-19 09:41:32,652 [ 963177]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 22299ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:41:32,657 [ 963182]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 1 to update, calculated in 1ms 
+2017-11-19 09:41:32,719 [ 963244]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 61ms; general responsiveness: ok; EDT responsiveness: ok 
+2017-11-19 09:41:33,342 [ 963867]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 379 ms 
+2017-11-19 09:41:33,422 [ 963947]   INFO - s.webpack.WebPackConfigManager - webpack config evaluation took 414 ms 
+2017-11-19 09:41:54,822 [ 985347]  ERROR - rm.terminal.model.JediTerminal - Unsupported erase in display mode:3 
+2017-11-19 09:48:20,321 [1370846]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=15, fontScale=1.25 
+2017-11-19 09:59:23,408 [2033933]   WARN - ellij.openapi.ui.DialogWrapper - Stale listener: com.intellij.ide.ui.laf.LafManagerImpl$OurPopupFactory$1@d422e20 

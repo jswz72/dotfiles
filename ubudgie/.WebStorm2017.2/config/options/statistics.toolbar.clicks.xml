@@ -1,0 +1,8 @@
+<application>
+  <component name="ToolbarClicksCollector">
+    <counts>
+      <entry action="com.intellij.openapi.vcs.ex.RollbackLineStatusRangeAction@toolbar" count="6" />
+      <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="1" />
+    </counts>
+  </component>
+</application>
