@@ -203,3 +203,11 @@ let g:netrw_http_cmd="curl"
 let g:netrw_http_xcmd="-L -o"
 
 autocmd QuickFixCmdPost * copen
+
+"Default=1 enables errors signs in gutter.
+let g:ycm_enable_diagnostic_signs = 1 "Show errors in gutter
+"Default=1, highlights error sections of iles, below special highlight fixes
+"the overshadowing of syntax in some cases.
+let g:ycm_enable_diagnostic_highlighting = 1 
+highlight YcmErrorSection ctermfg=7 ctermbg=1 guifg=White guibg=Red
+
